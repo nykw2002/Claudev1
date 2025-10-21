@@ -1,0 +1,105 @@
+# Environment variables - NEVER COMMIT THESE
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+*.env
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+pip-wheel-metadata/
+share/python-wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+
+# Virtual environments
+venv/
+ENV/
+env/
+.venv
+
+# IDEs
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+
+# Node
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+.pnpm-debug.log*
+
+# Next.js
+.next/
+out/
+next-env.d.ts
+
+# Testing
+.coverage
+.pytest_cache/
+*.cover
+*.py,cover
+htmlcov/
+.tox/
+.nox/
+
+# Uploads and temporary files
+backend/uploads/*
+!backend/uploads/.gitkeep
+*.pdf
+*.log
+ai_service_full.log
+
+# OS
+Thumbs.db
+Desktop.ini
+
+# Backup files
+*.bak
+*.backup
+*.tmp
+
+# Research/development files
+test.txt
+prompt.txt
+CAPA_runs/
+complaint_runs/
+model_comparison_results.md
+autonomous_analysis_system.py
+autonomous_system.py
+hybrid_rag_system.py
+simple_rag_system.py
+improved_hybrid_system.py
+gpt4o_file_query_system.py
+run_10_times.py
+gpt5_script_only_system.py
+*_debug.txt
+
+# Keep important documentation
+!README.md
+!SETUP_GUIDE.md
+!PROJECT_README.md
+!PROJECT_SUMMARY.md
